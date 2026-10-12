@@ -1,40 +1,55 @@
 .el--1 {
   background-color: blueviolet;
+   flex-grow: 1;
 }
 
 .el--2 {
   background-color: orangered;
+   flex-grow: 1;
 }
 
 .el--3 {
   background-color: green;
-  height: 150px;
+  /* height: 150px; */
+   flex-grow: 1;
 }
 
 .el--4 {
   background-color: goldenrod;
+  flex-grow: 3;
 }
 
 .el--5 {
   background-color: palevioletred;
+   flex-grow: 1;
 }
 
 .el--6 {
   background-color: steelblue;
+  align-self: flex-end;
+   flex-grow: 1;
 }
 
 .el--7 {
   background-color: yellow;
+   flex-grow: 1;
 }
 
 .el--8 {
   background-color: crimson;
+   flex-grow: 1;
 }
 
 .container {
   /* ALAP */
   font-family: sans-serif;
   background-color: #ddd;
+  height: 250px;
   font-size: 40px;
   margin: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
 }
